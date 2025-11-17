@@ -1,3 +1,4 @@
+```lua
 -- touch ~/.wezterm.lua
 
 local wezterm = require("wezterm")
@@ -72,3 +73,4 @@ config.colors.tab_bar = {
 }
 
 return config
+```
