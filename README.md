@@ -8,15 +8,15 @@ local config = wezterm.config_builder()
 config.font = wezterm.font("Inconsolata")
 config.font_size = 17
 config.line_height = 1.2
-config.default_cursor_style = "SteadyBar"
+config.default_cursor_style = "BlinkingBar"
 
 -- Theme 
 config.colors = {
   foreground = "#f8f8f2",
   background = "#1e2127",
-  cursor_bg = "#6c71c4",
-  cursor_fg = "#6c71c4",
-  cursor_border = "#6c71c4",
+  cursor_bg = "#b58900",
+  cursor_fg = "#b58900",
+  cursor_border = "#b58900",
 
   ansi = {
     "#073642", -- black
